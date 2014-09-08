@@ -1,0 +1,17 @@
+dt { 
+    float: left; 
+    clear: left; /*force the <dt> underneath anything floated left*/
+    width: 8rem;
+} 
+
+dd { 
+    float: left; 
+    margin: 0; 
+    padding: 0;
+} 
+
+dl { 
+    border: 1px solid red;
+    overflow:hidden;
+    /*Overflow hidden will remind the dl to wrap around its floated children*/
+} 
